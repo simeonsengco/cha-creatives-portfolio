@@ -51,7 +51,7 @@ Add an entry to `PORTFOLIO` in `portfolio-data.js`. Categories and project count
 
 Paths are relative to `index.html`. Use the actual filenames, including spaces; JavaScript handles URL encoding. Keep previews reasonably small. Media in `src` includes optimized web copies. Keep your original files separately for future editing.
 
-The hero uses an optimized copy of `src/CC Profile.png`. The Podcasts filter contains all five supplied podcast edits. Edit the portrait and page copy in `index.html`. Purple accents appear in headings, buttons, active filters, and pale section backgrounds. Frosted surfaces are used on navigation, the portrait caption, media labels, and the contact form. Brand colors are in `:root` at the top of `style.css`.
+The hero uses an optimized copy of `src/CC Profile.png`. The Podcasts filter contains all five supplied Podcast Editing samples. Edit the portrait and page copy in `index.html`. Purple accents appear in headings, buttons, active filters, and pale section backgrounds. Frosted surfaces are used on navigation, the portrait caption, media labels, and the contact form. Brand colors are in `:root` at the top of `style.css`.
 
 ## Browsing and interaction
 

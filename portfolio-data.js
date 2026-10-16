@@ -76,14 +76,14 @@ const PORTFOLIO = [
   },
   {
     "id": "podcast",
-    "title": "Podcast edit · Sample 01",
+    "title": "Podcast Editing · Sample 01",
     "category": "Podcasts",
-    "format": "Podcast edit",
+    "format": "Podcast Editing",
     "type": "video",
     "image": "assets/previews/podcast.jpg",
     "source": "src/Sample Podcast Edits/Podcast 1.mp4",
-    "alt": "Preview of a podcast video edit",
-    "description": "A sample from the podcast editing collection. Explore the complete edit in the player."
+    "alt": "Preview of a Podcast Editing sample",
+    "description": "A sample from the Podcast Editing collection. Explore the complete edit in the player."
   },
   {
     "id": "yoga",
@@ -142,46 +142,46 @@ const PORTFOLIO = [
   },
   {
     "id": "podcast-2",
-    "title": "Podcast edit · Sample 02",
+    "title": "Podcast Editing · Sample 02",
     "category": "Podcasts",
-    "format": "Podcast video edit",
+    "format": "Podcast Editing",
     "type": "video",
     "image": "assets/previews/podcast-2.jpg",
     "source": "src/Sample Podcast Edits/Podcast 2.mp4",
-    "alt": "Preview of podcast editing sample 2",
-    "description": "Sample 2 from my podcast editing collection. Play the full video to explore the edit."
+    "alt": "Preview of Podcast Editing sample 2",
+    "description": "Sample 2 from my Podcast Editing collection. Play the full video to explore the edit."
   },
   {
     "id": "podcast-3",
-    "title": "Podcast edit · Sample 03",
+    "title": "Podcast Editing · Sample 03",
     "category": "Podcasts",
-    "format": "Podcast video edit",
+    "format": "Podcast Editing",
     "type": "video",
     "image": "assets/previews/podcast-3.jpg",
     "source": "src/Sample Podcast Edits/Podcast 3.mp4",
-    "alt": "Preview of podcast editing sample 3",
-    "description": "Sample 3 from my podcast editing collection. Play the full video to explore the edit."
+    "alt": "Preview of Podcast Editing sample 3",
+    "description": "Sample 3 from my Podcast Editing collection. Play the full video to explore the edit."
   },
   {
     "id": "podcast-4",
-    "title": "Podcast edit · Sample 04",
+    "title": "Podcast Editing · Sample 04",
     "category": "Podcasts",
-    "format": "Podcast video edit",
+    "format": "Podcast Editing",
     "type": "video",
     "image": "assets/previews/podcast-4.jpg",
     "source": "src/Sample Podcast Edits/Podcast 4.mp4",
-    "alt": "Preview of podcast editing sample 4",
-    "description": "Sample 4 from my podcast editing collection. Play the full video to explore the edit."
+    "alt": "Preview of Podcast Editing sample 4",
+    "description": "Sample 4 from my Podcast Editing collection. Play the full video to explore the edit."
   },
   {
     "id": "podcast-5",
-    "title": "Podcast edit · Sample 05",
+    "title": "Podcast Editing · Sample 05",
     "category": "Podcasts",
-    "format": "Podcast video edit",
+    "format": "Podcast Editing",
     "type": "video",
     "image": "assets/previews/podcast-5.jpg",
     "source": "src/Sample Podcast Edits/Podcast 5.mp4",
-    "alt": "Preview of podcast editing sample 5",
-    "description": "Sample 5 from my podcast editing collection. Play the full video to explore the edit."
+    "alt": "Preview of Podcast Editing sample 5",
+    "description": "Sample 5 from my Podcast Editing collection. Play the full video to explore the edit."
   }
 ];
