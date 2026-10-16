@@ -1,4 +1,4 @@
-# CHA CREATIVES — Charlene Dela Cruz
+# CHAAA CREATIVES — Charlene Dela Cruz
 
 A responsive portfolio built with plain HTML, CSS, and JavaScript. No build step or dependency installation is required.
 
