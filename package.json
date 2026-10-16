@@ -1,0 +1,11 @@
+{
+  "name": "cha-creatives-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Charlene Dela Cruz’s creative and professional portfolio",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check main.js && node --check portfolio-data.js && node --check trust-data.js && node --check scripts/serve.mjs && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
