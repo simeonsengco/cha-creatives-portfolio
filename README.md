@@ -75,6 +75,8 @@ Cards open an accessible document viewer with Previous/Next controls, left/right
 
 ## Contact
 
+The contact section and footer link to WhatsApp at `https://wa.me/639385261454`. The link opens WhatsApp; visitors choose whether to send a message.
+
 The contact form validates the fields and opens an email draft addressed to **chaaa.creatives@gmail.com**. It does not send or store messages; the visitor reviews and sends the draft in their own email app. Direct email links remain available. To receive submissions on the website, integrate a form service or backend first.
 
 ## Checks
