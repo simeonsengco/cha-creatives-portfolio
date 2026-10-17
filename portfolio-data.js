@@ -31,6 +31,25 @@ const PORTFOLIO = [
     "description": "A coordinated seven-slide social carousel for Jazzlove Beauty, combining portrait photography with warm neutrals and expressive typography."
   },
   {
+    "id": "carousel-003",
+    "title": "Reels hooks · Sample 003",
+    "category": "Social & Graphics",
+    "format": "Social carousel · 7 slides",
+    "type": "gallery",
+    "image": "assets/previews/carousel-003.jpg",
+    "images": [
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/1.jpg",
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/2.jpg",
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/3.jpg",
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/4.jpg",
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/5.jpg",
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/6.jpg",
+      "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/7.jpg"
+    ],
+    "alt": "Influencer OS carousel cover with pink typography and 20 hook ideas for reels",
+    "description": "Sample 003 from the carousel graphics collection: seven slides combining bold headlines, film imagery, and social content ideas for Influencer OS."
+  },
+  {
     "id": "barber",
     "title": "Salomon · Barber reel",
     "category": "Video Editing",
@@ -62,6 +81,17 @@ const PORTFOLIO = [
     "source": "src/Creative Graphics Sample/POSTERS/7th studio poster.jpg",
     "alt": "7th Studios promotional poster with gold typography and a production team collage",
     "description": "A promotional poster bringing together event production, videography, and photography through a layered team composition."
+  },
+  {
+    "id": "holiday-ready",
+    "title": "Holiday Ready · VA package",
+    "category": "Social & Graphics",
+    "format": "Promotional poster",
+    "type": "image",
+    "image": "assets/previews/holiday-ready.jpg",
+    "source": "src/Creative Graphics Sample/POSTERS/Holiday Ready.jpg",
+    "alt": "Holiday Ready virtual assistant package poster in pink and mint for beauty businesses",
+    "description": "A promotional poster for ATWT Virtual Solutions, presenting a holiday-ready virtual assistant package for beauty businesses with bold pink typography and a phone mockup."
   },
   {
     "id": "media-kit",

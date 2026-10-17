@@ -4,7 +4,7 @@ A responsive portfolio built with plain HTML, CSS, and JavaScript. No build step
 
 ## Upload to GitHub
 
-Prepared package: 62 files, approximately 397 MB (61% smaller than the working project). The largest file is approximately 95 MB.
+Prepared package: 72 files, approximately 399 MB (61% smaller than the working project). The largest file is approximately 95 MB.
 
 This folder is the complete website. Upload its contents, with `index.html` at the repository root. Use GitHub Desktop or Git to push it: the full-length podcast files exceed the browser uploader's 25 MiB limit, but every file is below GitHub's 100 MiB Git file limit. Git LFS is not required. See [GitHub file limits](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
 
@@ -31,7 +31,7 @@ Visit **http://localhost:8000**. The local server supports byte-range requests f
 index.html             Page content, services, experience, and contact form
 style.css              Responsive layout, colors, and component styles
 main.js                Navigation, filtering, image/video viewer, and form validation
-portfolio-data.js      The 16 selected projects and their source paths
+portfolio-data.js      The 18 selected projects and their source paths
 trust-data.js          Six testimonial excerpts and two certificate records
 assets/previews/       Smaller image previews and extracted video thumbnails
 src/                   Used work samples, PDFs, images, and optimized videos
