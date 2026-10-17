@@ -104,7 +104,8 @@
   const modal = $('#modal');
   const media = $('.m-media', modal);
   const original = $('.m-source', modal);
-  const categories = ['All work', ...new Set(PORTFOLIO.map(project => project.category))];
+  const categories = ['All work', ...new Set(PORTFOLIO.flatMap(project => [project.category, ...(project.collection ? [project.collection] : [])]))];
+  const matchesCategory = (project, category) => category === 'All work' || project.category === category || project.collection === category;
   let selectedProject = null;
   let slide = 0;
   let opener = null;
@@ -122,7 +123,7 @@
   };
 
   categories.forEach((category, index) => {
-    const count = category === 'All work' ? PORTFOLIO.length : PORTFOLIO.filter(p => p.category === category).length;
+    const count = PORTFOLIO.filter(project => matchesCategory(project, category)).length;
     const button = element('button', '', category);
     button.type = 'button';
     button.dataset.category = category;
@@ -150,7 +151,7 @@
       thumb.append(play);
     }
     const info = element('span', 'work-info');
-    info.append(element('span', 'cat', project.category));
+    info.append(element('span', 'cat', project.collection || project.category));
     const title = element('span', 'work-title', project.title);
     const arrow = element('span', '', '↗');
     arrow.setAttribute('aria-hidden', 'true');
@@ -160,7 +161,7 @@
     grid.append(button);
   });
   const renderFilter = () => {
-    const matching = PORTFOLIO.filter(project => activeCategory === 'All work' || project.category === activeCategory);
+    const matching = PORTFOLIO.filter(project => matchesCategory(project, activeCategory));
     visibleProjects = expanded ? matching : matching.slice(0, 6);
     $$('button', filters).forEach(button => button.setAttribute('aria-pressed', String(button.dataset.category === activeCategory)));
     $$('.work', grid).forEach(work => {
@@ -191,7 +192,7 @@
     selectCategory(button.dataset.category);
   });
   showMore.addEventListener('click', () => {
-    const firstNew = PORTFOLIO.indexOf(PORTFOLIO.filter(project => activeCategory === 'All work' || project.category === activeCategory)[visibleProjects.length]);
+    const firstNew = PORTFOLIO.indexOf(PORTFOLIO.filter(project => matchesCategory(project, activeCategory))[visibleProjects.length]);
     expanded = true;
     renderFilter();
     $(`.work[data-index="${firstNew}"]`, grid)?.focus();

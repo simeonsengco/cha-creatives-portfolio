@@ -28,7 +28,8 @@ const PORTFOLIO = [
       "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 1/7.jpg"
     ],
     "alt": "Jazzlove Beauty gratitude carousel cover",
-    "description": "A coordinated seven-slide social carousel for Jazzlove Beauty, combining portrait photography with warm neutrals and expressive typography."
+    "description": "A coordinated seven-slide social carousel for Jazzlove Beauty, combining portrait photography with warm neutrals and expressive typography.",
+    "collection": "Carousel Graphics"
   },
   {
     "id": "carousel-003",
@@ -47,7 +48,8 @@ const PORTFOLIO = [
       "src/Creative Graphics Sample/CAROUSEL GRAPHICS/SAMPLE 3/7.jpg"
     ],
     "alt": "Influencer OS carousel cover with pink typography and 20 hook ideas for reels",
-    "description": "Sample 003 from the carousel graphics collection: seven slides combining bold headlines, film imagery, and social content ideas for Influencer OS."
+    "description": "Sample 003 from the carousel graphics collection: seven slides combining bold headlines, film imagery, and social content ideas for Influencer OS.",
+    "collection": "Carousel Graphics"
   },
   {
     "id": "barber",
@@ -72,17 +74,6 @@ const PORTFOLIO = [
     "description": "An editorial thumbnail for Contractor Growth Secrets, built around a bold headline, a clear focal point, and high-contrast color."
   },
   {
-    "id": "studio",
-    "title": "7th Studios · In the spotlight",
-    "category": "Social & Graphics",
-    "format": "Promotional poster",
-    "type": "image",
-    "image": "assets/previews/studio.jpg",
-    "source": "src/Creative Graphics Sample/POSTERS/7th studio poster.jpg",
-    "alt": "7th Studios promotional poster with gold typography and a production team collage",
-    "description": "A promotional poster bringing together event production, videography, and photography through a layered team composition."
-  },
-  {
     "id": "holiday-ready",
     "title": "Holiday Ready · VA package",
     "category": "Social & Graphics",
@@ -91,7 +82,20 @@ const PORTFOLIO = [
     "image": "assets/previews/holiday-ready.jpg",
     "source": "src/Creative Graphics Sample/POSTERS/Holiday Ready.jpg",
     "alt": "Holiday Ready virtual assistant package poster in pink and mint for beauty businesses",
-    "description": "A promotional poster for ATWT Virtual Solutions, presenting a holiday-ready virtual assistant package for beauty businesses with bold pink typography and a phone mockup."
+    "description": "A promotional poster for ATWT Virtual Solutions, presenting a holiday-ready virtual assistant package for beauty businesses with bold pink typography and a phone mockup.",
+    "collection": "Posters"
+  },
+  {
+    "id": "studio",
+    "title": "7th Studios · In the spotlight",
+    "category": "Social & Graphics",
+    "format": "Promotional poster",
+    "type": "image",
+    "image": "assets/previews/studio.jpg",
+    "source": "src/Creative Graphics Sample/POSTERS/7th studio poster.jpg",
+    "alt": "7th Studios promotional poster with gold typography and a production team collage",
+    "description": "A promotional poster bringing together event production, videography, and photography through a layered team composition.",
+    "collection": "Posters"
   },
   {
     "id": "media-kit",
@@ -124,7 +128,8 @@ const PORTFOLIO = [
     "image": "assets/previews/yoga.jpg",
     "source": "src/Creative Graphics Sample/POSTERS/yoga poster.jpg",
     "alt": "Green Yoga with Jazz event poster featuring a collage of class photography",
-    "description": "A community yoga event poster with a photographic collage, a natural green palette, and easy-to-scan event details."
+    "description": "A community yoga event poster with a photographic collage, a natural green palette, and easy-to-scan event details.",
+    "collection": "Posters"
   },
   {
     "id": "vela",
